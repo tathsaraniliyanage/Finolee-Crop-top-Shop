@@ -1,0 +1,87 @@
+
+
+
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.cart{
+   width: 200px;
+   height: 228px;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid black;
+   border-radius: 11px;
+   padding: 10px 20px 20px 20px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin-left: 35px;
+    object-fit: cover;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.img1{
+   width: 20px;
+   height: 20px;
+   object-fit: cover;
+   position: relative;
+   /* margin-top: 13px; */
+   /* margin-left: 160px; */
+}
+.span1{
+    color: white;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.span2{
+   margin-left:180px ;
+}
+p{
+    font-size: 11px;
+}
+.img2{
+    /* box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.25); */
+}
+.burger{
+    height: 80px;
+    width:30px;
+   background-color: crimson;
+   
+    }
+
+@media  screen and (min-width:656px) {
+    .burger{
+       display: none;
+     }
+  
+  }
+  @media  screen and (max-width:656px) {
+      #header-tags{
+          display: none;
+      }
+  }
+  @media  screen and (max-width:556px) {
+    header > section > div{
+        gap: 0;
+    }
+    header > section > div>ul{
+         gap: 3px;
+    }
+}
+ 
